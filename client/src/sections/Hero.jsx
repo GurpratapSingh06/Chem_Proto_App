@@ -57,7 +57,7 @@ const Hero = () => {
         {/* Campus Background Image */}
         <div className="absolute inset-0 z-0 opacity-[0.15] dark:opacity-[0.1] mix-blend-overlay overflow-hidden">
           <img 
-            src="/mitaoe.png" 
+            src={`${import.meta.env.BASE_URL}mitaoe.png`} 
             alt="Campus Background" 
             className="w-full h-full object-cover grayscale brightness-125"
           />

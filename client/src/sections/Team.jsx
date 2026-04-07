@@ -8,25 +8,25 @@ const Team = () => {
       name: 'Aditya Patil',
       role: 'Roll No. 317',
       id: '202401040312',
-      image: '/Aditya.png' // Add path like '/aditya.png' after placing it in client/public/
+      image: `${import.meta.env.BASE_URL}Aditya.png`
     },
     {
       name: 'Gurpratap Singh',
       role: 'Roll No. 321',
       id: '202401040323',
-      image: '/Gurpratap.png' // Add path like '/gurpratap.png'
+      image: `${import.meta.env.BASE_URL}Gurpratap.png`
     },
     {
       name: 'Khush Patil',
       role: 'Roll No. 324',
       id: '202401040324',
-      image: '/khushh.jpeg' // Add path like '/khush.png'
+      image: `${import.meta.env.BASE_URL}khushh.jpeg`
     },
     {
       name: 'Manas Wadile',
       role: 'Roll No. 326',
       id: '202401040330',
-      image: 'manas.jpeg' // Add path like '/manas.png'
+      image: `${import.meta.env.BASE_URL}manas.jpeg`
     }
   ];
 
