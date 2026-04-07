@@ -1,5 +1,7 @@
 # Liquid Soap Preparation App
 
+Live: https://gurpratapsingh06.github.io/Chem_Proto_App/
+
 This project consists of a React frontend (client) and an Express backend (server).
 
 ## Prerequisites
