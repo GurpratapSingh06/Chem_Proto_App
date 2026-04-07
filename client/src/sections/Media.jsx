@@ -33,7 +33,7 @@ const MediaSection = () => {
                 poster="" /* Place holder for video thumbnail*/
                 controls
               >
-                <source src="/chem_AI.mp4" type="video/mp4" />
+                <source src={`${import.meta.env.BASE_URL}chem_AI.mp4`} type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
               <div className="absolute inset-0 bg-black/10 flex items-center justify-center pointer-events-none group-hover:bg-black/0 transition-all duration-500">
